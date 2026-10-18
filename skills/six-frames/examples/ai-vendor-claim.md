@@ -14,7 +14,7 @@ A full Quick-mode run. The source is a made-up vendor email, written for this ex
 
 ## The output
 
-## Six Frames: FlowPilot cold email
+### Six Frames: FlowPilot cold email
 
 **▲ Purpose:** Decide whether a 12-person accounting firm should spend 15 minutes on a demo. "Enough" means knowing whether the claims hold up and whether it fits how an accounting firm actually works.
 
