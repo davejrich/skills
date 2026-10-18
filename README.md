@@ -31,6 +31,8 @@ Pick one method. Using two installs every skill twice.
 |---|---|
 | [**six-frames**](skills/six-frames/) | Runs any article, pitch, claim or web page through Edward de Bono's Six Frames (Purpose, Accuracy, Point of view, Interest, Value, Outcome). Ends with a conclusion, a confidence level and one next action. |
 
+| [**seven-hats**](skills/seven-hats/) | Reviews a document through seven perspectives, including evidence, benefits, caution and wider implications. Includes a colour report renderer and a documented client-view PDF review. |
+
 More coming. Watch the repo to hear when they land.
 
 ## Quick start
@@ -41,7 +43,7 @@ More coming. Watch the repo to hear when they land.
 Purpose: I'm deciding whether to switch our team to this tool.
 ```
 
-See [six-frames](skills/six-frames/) for the full guide and a worked example.
+See [six-frames](skills/six-frames/) for its full guide and worked example, or [seven-hats](skills/seven-hats/) for a document review with a colour report.
 
 ## License
 
