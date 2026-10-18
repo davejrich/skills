@@ -1,0 +1,11 @@
+{
+  "name": "davejrich",
+  "owner": { "name": "Dave J Rich", "url": "https://davejrich.com" },
+  "plugins": [
+    {
+      "name": "davejrich-skills",
+      "source": "./",
+      "description": "Agent skills by Dave J Rich for thinking clearly and getting real work done with AI."
+    }
+  ]
+}

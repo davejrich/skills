@@ -1,0 +1,10 @@
+{
+  "name": "davejrich-skills",
+  "description": "Agent skills by Dave J Rich for thinking clearly and getting real work done with AI.",
+  "version": "1.0.0",
+  "author": { "name": "Dave J Rich", "url": "https://davejrich.com" },
+  "homepage": "https://github.com/davejrich/skills",
+  "repository": "https://github.com/davejrich/skills",
+  "license": "MIT",
+  "keywords": ["critical-thinking", "de-bono", "six-frames", "skills"]
+}
