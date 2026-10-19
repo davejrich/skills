@@ -5,7 +5,7 @@ description: Analyse a document through seven named perspectives and produce a c
 
 # Seven Hats document analysis
 
-Produce a faithful summary, seven distinct perspectives, and a decision-focused synthesis. This is David Rich's adaptation inspired by Edward de Bono's Six Thinking Hats; Purple (connections and implications) is an added perspective. It is not an official de Bono method or a replacement for his facilitated parallel-thinking process.
+Produce a faithful summary, seven distinct perspectives, and a decision-focused synthesis. This is Dave J Rich's adaptation inspired by Edward de Bono's Six Thinking Hats; Purple (connections and implications) is an added perspective. It is not an official de Bono method or a replacement for his facilitated parallel-thinking process.
 
 ## Inputs and scope
 
