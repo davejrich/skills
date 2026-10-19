@@ -29,10 +29,21 @@ Pick one method. Using two installs every skill twice.
 
 ## Skills
 
+### Thinking & decisions
+
+Question claims, explore perspectives and decide what to do next.
+
 | Skill | What it does |
 |---|---|
 | [**six-frames**](skills/six-frames/) | Runs any article, pitch, claim or web page through Edward de Bono's Six Frames (Purpose, Accuracy, Point of view, Interest, Value, Outcome). Ends with a conclusion, a confidence level and one next action. |
 | [**seven-hats**](skills/seven-hats/) | Reviews a document through seven perspectives, including evidence, benefits, caution and wider implications. Includes a colour report renderer and a documented client-view PDF review. |
+
+### Coaching administration
+
+Practical support for the Admin Free Coach community: useful session records and follow-up, with the coach retaining judgment.
+
+| Skill | What it does |
+|---|---|
 | [**coaching-client-summary**](skills/coaching-client-summary/) | Turns coaching transcripts into client recaps with goals, agreed actions, owners and deadlines. Includes a wholly fictional worked example. |
 
 More coming. Watch the repo to hear when they land.
