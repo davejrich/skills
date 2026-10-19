@@ -16,7 +16,7 @@ Supply a transcript, notes or accessible link. The skill returns a client draft 
 - [Fictional input and worked output](examples/delegation-session.md)
 - [Validation limits](references/pilot-status.md)
 
-Included in the collection's [installation methods](../../README.md#install). The skill uses your agent's available document readers; no dedicated external account is required to work with pasted text.
+**Install just this skill:** `/plugin marketplace add davejrich/skills` then `/plugin install coaching-client-summary@davejrich`. Other methods are in the collection's [install section](../../README.md#install). The skill uses your agent's available document readers; no dedicated external account is required to work with pasted text.
 
 ## Review and refine
 

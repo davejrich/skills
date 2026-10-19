@@ -1,11 +1,67 @@
 {
   "name": "davejrich",
-  "owner": { "name": "Dave J Rich", "url": "https://davejrich.com" },
+  "owner": {
+    "name": "Dave J Rich",
+    "url": "https://davejrich.com"
+  },
   "plugins": [
     {
       "name": "davejrich-skills",
       "source": "./",
-      "description": "Agent skills by Dave J Rich for thinking clearly and getting real work done with AI."
+      "description": "All of Dave J Rich's skills in one install. Pick this or the individual skills below, not both."
+    },
+    {
+      "name": "six-frames",
+      "source": "./skills/six-frames",
+      "description": "Run any article, pitch, claim or web page through Edward de Bono's Six Frames. Ends with a conclusion, a confidence level and one next action.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Dave J Rich",
+        "url": "https://davejrich.com"
+      },
+      "category": "thinking",
+      "license": "MIT",
+      "homepage": "https://github.com/davejrich/skills"
+    },
+    {
+      "name": "seven-hats",
+      "source": "./skills/seven-hats",
+      "description": "Review a document through seven perspectives and get a colour-coded report.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Dave J Rich",
+        "url": "https://davejrich.com"
+      },
+      "category": "thinking",
+      "license": "MIT",
+      "homepage": "https://github.com/davejrich/skills"
+    },
+    {
+      "name": "coaching-client-summary",
+      "source": "./skills/coaching-client-summary",
+      "description": "Turn coaching transcripts into client recaps with goals, agreed actions, owners and deadlines.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Dave J Rich",
+        "url": "https://davejrich.com"
+      },
+      "category": "coaching",
+      "license": "MIT",
+      "homepage": "https://github.com/davejrich/skills"
+    },
+    {
+      "name": "meeting",
+      "source": "./skills/meeting",
+      "description": "Build a time-boxed agenda before a meeting and turn the transcript into minutes with decisions, owners and dates.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Dave J Rich",
+        "url": "https://davejrich.com"
+      },
+      "category": "admin",
+      "license": "MIT",
+      "homepage": "https://github.com/davejrich/skills"
     }
-  ]
+  ],
+  "description": "Agent skills by Dave J Rich for thinking clearly and getting real work done with AI."
 }

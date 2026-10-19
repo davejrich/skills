@@ -2,11 +2,14 @@
 
 Every change that reaches your agent gets a version here. The plugin version in `.claude-plugin/plugin.json` matches the latest entry, and each version is tagged as `vX.Y.Z` in git so you can see exactly what changed or grab an older copy.
 
-When releasing: bump the version in `plugin.json`, add an entry here, then tag the merge commit (`git tag v1.4.0 && git push origin v1.4.0`). Claude Code uses the version to decide whether to update, so a change without a bump may not reach people at all.
+When releasing: bump the version in `plugin.json` and on every skill entry in `marketplace.json` (they all share one version), add an entry here, then tag the merge commit (`git tag v1.4.0 && git push origin v1.4.0`). Claude Code uses the version to decide whether to update, so a change without a bump may not reach people at all.
 
 If a skill starts behaving differently after an update, check here first. To roll back, download the tagged version from [Tags](https://github.com/davejrich/skills/tags) and copy the skill folder into `~/.claude/skills/` manually (remove the plugin first so you don't have it twice).
 
-## 1.3.1 (2026-10-19)
+## 1.4.0 (2026-10-19)
+
+### Added
+- Each skill can now be installed on its own: `/plugin install six-frames@davejrich` and so on. The all-in-one `davejrich-skills` bundle still works.
 
 ### Changed
 - **seven-hats** reports now credit Dave J Rich instead of David Rich, matching the rest of the repo.

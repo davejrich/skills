@@ -10,20 +10,40 @@ Built by [Dave J Rich](https://davejrich.com). Ex-clinical nurse, ex-Director of
 
 **Claude Code plugin** (managed, updates automatically)
 
+Add the marketplace once:
+
 ```
 /plugin marketplace add davejrich/skills
+```
+
+Then install only the skills you want:
+
+```
+/plugin install six-frames@davejrich
+/plugin install seven-hats@davejrich
+/plugin install coaching-client-summary@davejrich
+/plugin install meeting@davejrich
+```
+
+Or grab everything, including skills added later:
+
+```
 /plugin install davejrich-skills@davejrich
 ```
+
+Don't install the bundle and an individual skill together, or you'll get that skill twice.
 
 **skills.sh** (editable copies, works with Claude Code, Codex and other agents)
 
 ```
-npx skills@latest add davejrich/skills
+npx skills@latest add davejrich/skills --skill six-frames
 ```
+
+Leave off `--skill` to pick from a list or take them all.
 
 **Manual**
 
-Copy any folder from `skills/` into `~/.claude/skills/` (all projects) or `.claude/skills/` (one project).
+Copy any single folder from `skills/` into `~/.claude/skills/` (all projects) or `.claude/skills/` (one project).
 
 Pick one method. Using two installs every skill twice.
 

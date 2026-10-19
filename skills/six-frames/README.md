@@ -8,7 +8,7 @@ It's not a summariser. Summaries tell you what something says. Six Frames tells 
 
 ## Install
 
-Comes with the [davejrich/skills](../../README.md#install) collection. Install that and `/six-frames` is ready to go.
+**Install just this skill:** `/plugin marketplace add davejrich/skills` then `/plugin install six-frames@davejrich`. Other methods are in the collection's [install section](../../README.md#install).
 
 ## Use it
 
