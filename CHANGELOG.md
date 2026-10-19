@@ -6,6 +6,12 @@ When releasing: bump the version in `plugin.json`, add an entry here, then tag t
 
 If a skill starts behaving differently after an update, check here first. To roll back, download the tagged version from [Tags](https://github.com/davejrich/skills/tags) and copy the skill folder into `~/.claude/skills/` manually (remove the plugin first so you don't have it twice).
 
+## 1.3.1 (2026-10-19)
+
+### Changed
+- **seven-hats** reports now credit Dave J Rich instead of David Rich, matching the rest of the repo.
+- README adds a contributing section and links this changelog.
+
 ## 1.3.0 (2026-10-19)
 
 ### Added
