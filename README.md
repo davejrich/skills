@@ -27,6 +27,8 @@ Copy any folder from `skills/` into `~/.claude/skills/` (all projects) or `.clau
 
 Pick one method. Using two installs every skill twice.
 
+**Updates.** The plugin tracks `main`, but every release gets a version number and a git tag. See the [changelog](CHANGELOG.md) for what changed and how to roll back.
+
 ## Skills
 
 ### Thinking & decisions
@@ -65,6 +67,14 @@ Purpose: I'm deciding whether to switch our team to this tool.
 ```
 
 See [six-frames](skills/six-frames/) for its full guide and worked example, or [seven-hats](skills/seven-hats/) for a document review with a colour report.
+
+## Contributing
+
+Help is welcome. Here's what I'll actually take:
+
+- **Skill misbehaving?** [Open an issue](https://github.com/davejrich/skills/issues/new) with the input you gave it, the output you got, and what you expected instead.
+- **PRs to `SKILL.md` and `references/` are welcome.** Keep each one to a single skill and say what problem it fixes.
+- **The `examples/` folders and the website are mine.** They're the worked examples I stand behind, so I don't take edits to them. Got a better example? Put it in an issue.
 
 ## License
 
