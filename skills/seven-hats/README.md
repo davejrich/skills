@@ -18,7 +18,7 @@ On 19 October 2026 the skill was used in Codex to review Laura Zavelson's 29-pag
 
 - [Readable review](examples/marketing-assistant-review.md)
 - [Renderer input](examples/marketing-assistant-review.json)
-- [Generated colour report](examples/marketing-assistant-review.html) — download and open in a browser; GitHub may show HTML source.
+- [View the colour report online](https://davejrich.github.io/skills/examples/marketing-assistant-review.html), or [download the HTML](examples/marketing-assistant-review.html).
 
 The source PDF is excluded. The example contains attributed analysis and limited paraphrases, not the source presentation. It is not an endorsement or independently validated marketing study.
 

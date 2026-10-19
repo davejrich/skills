@@ -4,6 +4,8 @@ Agent skills I use to think clearly and get real work done with AI. Each one is 
 
 Built by [Dave J Rich](https://davejrich.com). Ex-clinical nurse, ex-Director of IT, now building AI workflows for real businesses.
 
+[Browse the skills website and formatted example reports](https://davejrich.github.io/skills/).
+
 ## Install
 
 **Claude Code plugin** (managed, updates automatically)
@@ -30,7 +32,6 @@ Pick one method. Using two installs every skill twice.
 | Skill | What it does |
 |---|---|
 | [**six-frames**](skills/six-frames/) | Runs any article, pitch, claim or web page through Edward de Bono's Six Frames (Purpose, Accuracy, Point of view, Interest, Value, Outcome). Ends with a conclusion, a confidence level and one next action. |
-
 | [**seven-hats**](skills/seven-hats/) | Reviews a document through seven perspectives, including evidence, benefits, caution and wider implications. Includes a colour report renderer and a documented client-view PDF review. |
 
 More coming. Watch the repo to hear when they land.
