@@ -46,6 +46,14 @@ Practical support for the Admin Free Coach community: useful session records and
 |---|---|
 | [**coaching-client-summary**](skills/coaching-client-summary/) | Turns coaching transcripts into client recaps with goals, agreed actions, owners and deadlines. Includes a wholly fictional worked example. |
 
+### Admin
+
+Less admin around the work itself: meetings, follow-up and records.
+
+| Skill | What it does |
+|---|---|
+| [**meeting**](skills/meeting/) | Builds a time-boxed agenda from your calendar, email and previous minutes, then turns the transcript into minutes with decisions, owners and dates. Flags agenda items that never got covered. Includes a fictional worked example. |
+
 More coming. Watch the repo to hear when they land.
 
 ## Quick start
