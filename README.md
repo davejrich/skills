@@ -33,6 +33,7 @@ Pick one method. Using two installs every skill twice.
 |---|---|
 | [**six-frames**](skills/six-frames/) | Runs any article, pitch, claim or web page through Edward de Bono's Six Frames (Purpose, Accuracy, Point of view, Interest, Value, Outcome). Ends with a conclusion, a confidence level and one next action. |
 | [**seven-hats**](skills/seven-hats/) | Reviews a document through seven perspectives, including evidence, benefits, caution and wider implications. Includes a colour report renderer and a documented client-view PDF review. |
+| [**coaching-client-summary**](skills/coaching-client-summary/) | Turns coaching transcripts into client recaps with goals, agreed actions, owners and deadlines. Includes a wholly fictional worked example. |
 
 More coming. Watch the repo to hear when they land.
 
