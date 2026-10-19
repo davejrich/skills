@@ -39,6 +39,8 @@ Full question set and common mistakes: [`references/framework.md`](references/fr
 
 ## What it looks like
 
+[View the formatted example report online](https://davejrich.github.io/skills/examples/six-frames-vendor-review.html).
+
 A made-up vendor email run through the skill (full run in [`examples/ai-vendor-claim.md`](examples/ai-vendor-claim.md)):
 
 ```
