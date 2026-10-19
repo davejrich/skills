@@ -64,7 +64,7 @@ h3{{margin-bottom:4px}}p{{white-space:pre-line}}li{{margin:8px 0;overflow-wrap:a
 .meta,footer{{font-size:14px;color:#475569}}section{{margin-top:28px}}@media(max-width:600px){{main{{margin:0;padding:20px}}}}
 @media print{{@page{{margin:18mm}}body{{background:white;font-size:11pt}}main{{max-width:none;margin:0;padding:0}}h2{{print-color-adjust:exact;-webkit-print-color-adjust:exact}}li{{break-inside:avoid}}}}
 </style></head><body><main><h1>{esc(data['title'])}</h1>
-<p class="meta">David Rich's adaptation inspired by Edward de Bono's Six Thinking Hats. Purple is an added perspective.</p>
+<p class="meta">Dave J Rich's adaptation inspired by Edward de Bono's Six Thinking Hats. Purple is an added perspective.</p>
 <p><strong>Purpose:</strong> {esc(data['purpose'])}</p><p class="meta">{esc(data['source'])}</p>
 <h2>Document summary</h2><p>{esc(data['summary'])}</p>{''.join(sections)}
 <section><h2>Synthesis</h2>{end}</section><h2>References</h2><ul>{''.join(links)}</ul>

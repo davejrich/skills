@@ -10,22 +10,44 @@ Built by [Dave J Rich](https://davejrich.com). Ex-clinical nurse, ex-Director of
 
 **Claude Code plugin** (managed, updates automatically)
 
+Add the marketplace once:
+
 ```
 /plugin marketplace add davejrich/skills
+```
+
+Then install only the skills you want:
+
+```
+/plugin install six-frames@davejrich
+/plugin install seven-hats@davejrich
+/plugin install coaching-client-summary@davejrich
+/plugin install meeting@davejrich
+```
+
+Or grab everything, including skills added later:
+
+```
 /plugin install davejrich-skills@davejrich
 ```
+
+Don't install the bundle and an individual skill together, or you'll get that skill twice.
 
 **skills.sh** (editable copies, works with Claude Code, Codex and other agents)
 
 ```
-npx skills@latest add davejrich/skills
+npx skills@latest add davejrich/skills --skill six-frames
 ```
+
+Leave off `--skill` to pick from a list or take them all.
 
 **Manual**
 
-Copy any folder from `skills/` into `~/.claude/skills/` (all projects) or `.claude/skills/` (one project).
+Copy any single folder from `skills/` into `~/.claude/skills/` (all projects) or `.claude/skills/` (one project).
 
 Pick one method. Using two installs every skill twice.
+
+**Updates.** The plugin tracks `main`, but every release gets a version number and a git tag. See the [changelog](CHANGELOG.md) for what changed and how to roll back.
 
 ## Skills
 
@@ -65,6 +87,14 @@ Purpose: I'm deciding whether to switch our team to this tool.
 ```
 
 See [six-frames](skills/six-frames/) for its full guide and worked example, or [seven-hats](skills/seven-hats/) for a document review with a colour report.
+
+## Contributing
+
+Help is welcome. Here's what I'll actually take:
+
+- **Skill misbehaving?** [Open an issue](https://github.com/davejrich/skills/issues/new) with the input you gave it, the output you got, and what you expected instead.
+- **PRs to `SKILL.md` and `references/` are welcome.** Keep each one to a single skill and say what problem it fixes.
+- **The `examples/` folders and the website are mine.** They're the worked examples I stand behind, so I don't take edits to them. Got a better example? Put it in an issue.
 
 ## License
 

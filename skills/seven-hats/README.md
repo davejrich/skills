@@ -1,6 +1,8 @@
 # Seven Hats
 
-Review a document through seven distinct perspectives, with evidence locators and a decision-focused conclusion. David Rich's adaptation adds Purple (connections and implications) to an approach inspired by Edward de Bono's Six Thinking Hats; it is not an official de Bono method.
+Review a document through seven distinct perspectives, with evidence locators and a decision-focused conclusion. Dave J Rich's adaptation adds Purple (connections and implications) to an approach inspired by Edward de Bono's Six Thinking Hats; it is not an official de Bono method.
+
+**Install just this skill:** `/plugin marketplace add davejrich/skills` then `/plugin install seven-hats@davejrich`. Other methods are in the collection's [install section](../../README.md#install).
 
 ## Use
 

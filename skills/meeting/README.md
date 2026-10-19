@@ -18,7 +18,7 @@ PREP finds the meeting, gathers context, shows you a draft agenda and saves it o
 - [Agenda and minutes formats](references/formats.md)
 - [Fictional worked example, agenda to minutes](examples/project-check-in.md)
 
-Included in the collection's [installation methods](../../README.md#install).
+**Install just this skill:** `/plugin marketplace add davejrich/skills` then `/plugin install meeting@davejrich`. Other methods are in the collection's [install section](../../README.md#install).
 
 ## What it needs
 
