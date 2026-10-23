@@ -19,6 +19,7 @@ Add the marketplace once:
 Then install only the skills you want:
 
 ```
+/plugin install six-medals@davejrich
 /plugin install six-frames@davejrich
 /plugin install seven-hats@davejrich
 /plugin install coaching-client-summary@davejrich
@@ -58,6 +59,7 @@ Question claims, explore perspectives and decide what to do next.
 | Skill | What it does |
 |---|---|
 | [**six-frames**](skills/six-frames/) | Runs any article, pitch, claim or web page through Edward de Bono's Six Frames (Purpose, Accuracy, Point of view, Interest, Value, Outcome). Ends with a conclusion, a confidence level and one next action. |
+| [**six-medals**](skills/six-medals/) | Maps founder and organisation values across six de Bono medals plus Clay. Includes desk/interview modes, decision checks and optional branded HTML/PDF reports. |
 | [**seven-hats**](skills/seven-hats/) | Reviews a document through seven perspectives, including evidence, benefits, caution and wider implications. Includes a colour report renderer and a documented client-view PDF review. |
 
 ### Coaching administration

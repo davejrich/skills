@@ -1,0 +1,74 @@
+{
+  "business": "Harbourline Plumbing (fictional)",
+  "founder": "Tony Marsh (fictional)",
+  "date": "2026-10-23",
+  "mode": "desk",
+  "purpose": "Fictional demonstration of an advisory values map",
+  "caveat": "All people, businesses and evidence in this example are invented. Founder priorities are hypotheses to discuss.",
+  "summary": {
+    "top_values": [
+      "Quality of work",
+      "Looking after people",
+      "Family continuity (unconfirmed)"
+    ],
+    "gap": "Customers praise careful work; the fictional website stresses cheap and fast.",
+    "tension": "Growth ambitions may conflict with the owner handling every quote.",
+    "confidence": "medium",
+    "confidence_reason": "Illustrative evidence supports service quality; founder priorities need interview confirmation.",
+    "next_action": "Ask what should happen to the business when the owner steps back."
+  },
+  "medals": [
+    {
+      "key": "gold",
+      "rating": "strong",
+      "evidence": [
+        "Invented reviews praise named plumbers; a fictional job ad offers a four-day week."
+      ]
+    },
+    {
+      "key": "silver",
+      "rating": "present",
+      "evidence": [
+        "The fictional business added two vans; profitability remains unknown."
+      ]
+    },
+    {
+      "key": "steel",
+      "rating": "strong",
+      "evidence": [
+        "Invented customers describe work fixed first time."
+      ]
+    },
+    {
+      "key": "glass",
+      "rating": "weak",
+      "evidence": [
+        "The fictional quote process depends on the owner; wider innovation is unknown."
+      ]
+    },
+    {
+      "key": "wood",
+      "rating": "present",
+      "evidence": [
+        "A fictional club sponsorship is documented; environmental claims need evidence."
+      ]
+    },
+    {
+      "key": "brass",
+      "rating": "present",
+      "evidence": [
+        "Invented reviews suggest careful service while the fictional website promotes price."
+      ]
+    },
+    {
+      "key": "clay",
+      "rating": "thin",
+      "evidence": [
+        "Succession is an unconfirmed hypothesis, not a known motive."
+      ]
+    }
+  ],
+  "sources": [
+    "Fictional source scenario: examples/family-plumbing-business.md. No real business research."
+  ]
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Values Map: Harbourline Plumbing (fictional)</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--a1:#2bd9c9;--a1i:#0e8f82;--a2:#f2a63d;--text:#0a0d12;
+--t2:#3b404c;--t3:#626879;--bg2:#f5f7fa;--line:rgba(10,13,18,.10);--grad:linear-gradient(100deg,var(--a1),var(--a2))}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--text);font:15px/1.55 'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Space Grotesk',system-ui,sans-serif;margin:0;letter-spacing:-.01em;line-height:1.2}
+.page{max-width:880px;margin:0 auto;padding:32px 24px 48px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.logo svg{height:34px;width:auto;display:block}
+.conf{font-size:.72rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#b3401f;border:1px solid #b3401f;border-radius:999px;padding:4px 10px}
+.conf.soft{color:var(--a1i);border-color:var(--a1i)}
+.hero{margin:28px 0 8px}
+.eyebrow{font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--a1i)}
+h1{font-size:2.2rem;font-weight:700;margin:6px 0 4px}
+.who{font-size:1.05rem;color:var(--t2)}
+.meta{color:var(--t3);font-size:.88rem;margin-top:6px}
+.bar{height:5px;border-radius:5px;background:var(--grad);margin:20px 0 24px}
+.caveat{background:#fff8ec;border-left:4px solid var(--a2);padding:12px 16px;border-radius:8px;margin-bottom:22px;color:var(--t2)}
+.summary{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--bg2);margin-bottom:26px;break-inside:avoid}
+.summary h2{font-size:1.25rem;margin-bottom:12px}
+.summary ol{margin:0 0 14px;padding-left:22px;font-weight:600}
+.summary ol li{margin:3px 0}
+.kv{margin:10px 0}
+.kv h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--t3);margin-bottom:2px}
+.kv p{margin:0}
+.next{margin-top:14px;background:#fff;border-radius:12px;padding:14px 16px;border:2px solid transparent;
+background-image:linear-gradient(#fff,#fff),var(--grad);background-origin:border-box;background-clip:padding-box,border-box}
+.next h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--a1i);margin-bottom:4px}
+.next p{margin:0;font-weight:600}
+h2.sec{font-size:1.25rem;margin:8px 0 12px;break-after:avoid}
+.medal:first-of-type{break-before:auto}
+.strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;margin-bottom:26px}
+.chip{border:1px solid var(--line);border-top:4px solid var(--medal);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:3px;break-inside:avoid}
+.chip small{color:var(--t3);font-size:.75rem;line-height:1.3}
+.chip .dot{display:none}
+.chip .badge{align-self:flex-start;margin-top:4px}
+.badge{display:inline-block;font-size:.72rem;font-weight:600;border:1px solid;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.medal{border:1px solid var(--line);border-left:6px solid var(--medal);border-radius:12px;padding:16px 18px;margin-bottom:12px;break-inside:avoid}
+.medal header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.medal header>div{flex:1}
+.medal h3{font-size:1.1rem}
+.medal small{color:var(--t3)}
+.disc{width:34px;height:34px;border-radius:50%;background:var(--medal);color:#fff;display:grid;place-items:center;font-weight:700;font-family:'Space Grotesk',sans-serif;flex:none}
+.medal ul{margin:4px 0 8px;padding-left:20px;color:var(--t2)}
+.medal li{margin:3px 0}
+.tag{margin:6px 0 0;color:var(--t2)}
+.tag b{color:var(--text)}
+.foot{margin-top:28px;border-top:1px solid var(--line);padding-top:16px;color:var(--t3);font-size:.82rem}
+.foot h4{font-size:.85rem;color:var(--t2);margin:10px 0 4px}
+.foot ul{margin:0;padding-left:18px}
+.brandline{margin-top:16px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-weight:500;color:var(--t2)}
+@media (min-width:700px){.strip{grid-template-columns:repeat(7,1fr);gap:6px}.chip{padding:8px}}
+@media (max-width:560px){h1{font-size:1.7rem}.page{padding:20px 16px 36px}}
+@page{size:A4;margin:14mm}
+@media print{.strip{grid-template-columns:repeat(7,1fr);gap:6px}.chip{padding:8px}.page{padding:0;max-width:none}body{font-size:12.5px}a{color:inherit}}
+</style></head>
+<body><div class="page">
+<div class="top"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" role="img" aria-label="aisharp">
+  <title>aisharp</title>
+  <polygon points="20,20 20,180 95,100" fill="#2bd9c9"/>
+  <polygon points="115,0 115,200 220,100" fill="#f2a63d"/>
+  <text x="260" y="155" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-weight="800" font-size="150">
+    <tspan fill="#2bd9c9">ai</tspan><tspan fill="#0a0d12">sharp</tspan>
+  </text>
+</svg>
+</div><span class="conf">Confidential: advisor working notes</span></div>
+<div class="hero"><div class="eyebrow">Six Medals · Values Map</div>
+<h1>Harbourline Plumbing (fictional)</h1>
+<div class="who">Tony Marsh (fictional)</div>
+<div class="meta">2026-10-23 · Desk mode · Fictional demonstration of an advisory values map</div></div>
+<div class="bar"></div>
+<div class="caveat"><b>Read this first:</b> All people, businesses and evidence in this example are invented. Founder priorities are hypotheses to discuss.</div>
+<section class="summary"><h2>What drives this business</h2>
+<ol><li>Quality of work</li><li>Looking after people</li><li>Family continuity (unconfirmed)</li></ol><div class="kv"><h4>Biggest say/do gap</h4><p>Customers praise careful work; the fictional website stresses cheap and fast.</p></div><div class="kv"><h4>Biggest tension</h4><p>Growth ambitions may conflict with the owner handling every quote.</p></div><div class="kv"><h4>Confidence</h4><p><b>Medium</b> — Illustrative evidence supports service quality; founder priorities need interview confirmation.</p></div>
+<div class="next"><h4>Next action</h4><p>Ask what should happen to the business when the owner steps back.</p></div></section>
+<h2 class="sec">The seven medals at a glance</h2>
+<div class="strip"><div class="chip" style="--medal:#C9A227"><span class="dot"></span><b>Gold</b><small>People</small><span class="badge" style="color:#0e8f82;background:#e3f8f5;border-color:#0e8f82">Strong</span></div><div class="chip" style="--medal:#8E98A3"><span class="dot"></span><b>Silver</b><small>Organisation</small><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></div><div class="chip" style="--medal:#4A5A6A"><span class="dot"></span><b>Steel</b><small>Quality</small><span class="badge" style="color:#0e8f82;background:#e3f8f5;border-color:#0e8f82">Strong</span></div><div class="chip" style="--medal:#3FA9D6"><span class="dot"></span><b>Glass</b><small>Innovation</small><span class="badge" style="color:#b3401f;background:#fbe6df;border-color:#b3401f">Weak</span></div><div class="chip" style="--medal:#7A5230"><span class="dot"></span><b>Wood</b><small>Community &amp; environment</small><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></div><div class="chip" style="--medal:#B5883A"><span class="dot"></span><b>Brass</b><small>Perception</small><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></div><div class="chip" style="--medal:#B5653F"><span class="dot"></span><b>Clay</b><small>Founder&#x27;s stakes</small><span class="badge" style="color:#5b6170;background:#eceef2;border-color:#5b6170">Thin evidence</span></div></div>
+<h2 class="sec">Medal by medal</h2>
+<section class="medal" style="--medal:#C9A227"><header><span class="disc">G</span><div><h3>Gold</h3><small>People</small></div><span class="badge" style="color:#0e8f82;background:#e3f8f5;border-color:#0e8f82">Strong</span></header><ul><li>Invented reviews praise named plumbers; a fictional job ad offers a four-day week.</li></ul></section><section class="medal" style="--medal:#8E98A3"><header><span class="disc">S</span><div><h3>Silver</h3><small>Organisation</small></div><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></header><ul><li>The fictional business added two vans; profitability remains unknown.</li></ul></section><section class="medal" style="--medal:#4A5A6A"><header><span class="disc">S</span><div><h3>Steel</h3><small>Quality</small></div><span class="badge" style="color:#0e8f82;background:#e3f8f5;border-color:#0e8f82">Strong</span></header><ul><li>Invented customers describe work fixed first time.</li></ul></section><section class="medal" style="--medal:#3FA9D6"><header><span class="disc">G</span><div><h3>Glass</h3><small>Innovation</small></div><span class="badge" style="color:#b3401f;background:#fbe6df;border-color:#b3401f">Weak</span></header><ul><li>The fictional quote process depends on the owner; wider innovation is unknown.</li></ul></section><section class="medal" style="--medal:#7A5230"><header><span class="disc">W</span><div><h3>Wood</h3><small>Community &amp; environment</small></div><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></header><ul><li>A fictional club sponsorship is documented; environmental claims need evidence.</li></ul></section><section class="medal" style="--medal:#B5883A"><header><span class="disc">B</span><div><h3>Brass</h3><small>Perception</small></div><span class="badge" style="color:#8a5a00;background:#fdf1dc;border-color:#8a5a00">Present</span></header><ul><li>Invented reviews suggest careful service while the fictional website promotes price.</li></ul></section><section class="medal" style="--medal:#B5653F"><header><span class="disc">C</span><div><h3>Clay</h3><small>Founder&#x27;s stakes (added medal)</small></div><span class="badge" style="color:#5b6170;background:#eceef2;border-color:#5b6170">Thin evidence</span></header><ul><li>Succession is an unconfirmed hypothesis, not a known motive.</li></ul></section>
+<div class="foot"><h4>Sources</h4><ul><li>Fictional source scenario: examples/family-plumbing-business.md. No real business research.</li></ul>
+<h4>Method</h4><p>Based on Edward de Bono's <i>The Six Value Medals</i> (2005). Clay (the founder's own stakes) is an added medal, not part of de Bono's method. Ratings weigh what the business does over what it says. Independent adaptation, not affiliated with the de Bono estate.</p>
+<div class="brandline"><span>AI Sharp Solutions Â· aisharp.com.au Â· info@aisharp.com.au Â· 07 4800 6084</span><span>2026-10-23 · Prepared by Dave J Rich</span></div></div>
+</div></body></html>

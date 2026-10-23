@@ -1,0 +1,13 @@
+{
+  "name": "aisharp",
+  "logo_svg_path": "aisharp-logo.svg",
+  "accent_1": "#2bd9c9",
+  "accent_1_ink": "#0e8f82",
+  "accent_2": "#f2a63d",
+  "text": "#0a0d12",
+  "heading_font": "Space Grotesk",
+  "body_font": "Inter",
+  "google_fonts": "Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600",
+  "footer": "AI Sharp Solutions \u00c2\u00b7 aisharp.com.au \u00c2\u00b7 info@aisharp.com.au \u00c2\u00b7 07 4800 6084",
+  "prepared_by": "Dave J Rich"
+}

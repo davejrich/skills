@@ -6,6 +6,12 @@ When releasing: bump the version in `plugin.json` and on every skill entry in `m
 
 If a skill starts behaving differently after an update, check here first. To roll back, download the tagged version from [Tags](https://github.com/davejrich/skills/tags) and copy the skill folder into `~/.claude/skills/` manually (remove the plugin first so you don't have it twice).
 
+## 1.5.0 (2026-10-23)
+
+### Added
+- **six-medals** founder and organisation values mapping, desk/interview modes, evidence ratings and decision checks. Clay is explicitly an independent addition to de Bono's six medals.
+- Branded report renderer with advisor/founder views, an optional AI Sharp preset, fictional JSON input and a public example report. No client maps or reports are included.
+
 ## 1.4.0 (2026-10-19)
 
 ### Added

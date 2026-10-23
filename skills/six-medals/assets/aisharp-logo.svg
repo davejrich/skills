@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" role="img" aria-label="aisharp">
+  <title>aisharp</title>
+  <polygon points="20,20 20,180 95,100" fill="#2bd9c9"/>
+  <polygon points="115,0 115,200 220,100" fill="#f2a63d"/>
+  <text x="260" y="155" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-weight="800" font-size="150">
+    <tspan fill="#2bd9c9">ai</tspan><tspan fill="#0a0d12">sharp</tspan>
+  </text>
+</svg>
